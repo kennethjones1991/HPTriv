@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619F602A28DF933500330213 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602928DF933500330213 /* Instructions.swift */; };
+		619F602C28DFB92100330213 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602B28DFB92100330213 /* Settings.swift */; };
+		619F603028DFE10000330213 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602F28DFE10000330213 /* Gameplay.swift */; };
+		61D55B4E28B9729F00EBB708 /* TrivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D55B4D28B9729F00EBB708 /* TrivApp.swift */; };
+		61D55B5028B9729F00EBB708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D55B4F28B9729F00EBB708 /* ContentView.swift */; };
+		61D55B5228B9729F00EBB708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B5128B9729F00EBB708 /* Assets.xcassets */; };
+		61D55B5528B9729F00EBB708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B5428B9729F00EBB708 /* Preview Assets.xcassets */; };
+		61D55B5C28BBDE1000EBB708 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D55B5B28BBDE1000EBB708 /* Question.swift */; };
+		61D55B5E28BBDE6B00EBB708 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B5D28BBDE6B00EBB708 /* trivia.json */; };
+		61D55B6328BBDEAE00EBB708 /* page-flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B5F28BBDEAE00EBB708 /* page-flip.mp3 */; };
+		61D55B6428BBDEAE00EBB708 /* negative-beeps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B6028BBDEAE00EBB708 /* negative-beeps.mp3 */; };
+		61D55B6528BBDEAE00EBB708 /* magic-wand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B6128BBDEAE00EBB708 /* magic-wand.mp3 */; };
+		61D55B6628BBDEAE00EBB708 /* magic-in-the-air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D55B6228BBDEAE00EBB708 /* magic-in-the-air.mp3 */; };
+		61D55B6828BBE37C00EBB708 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D55B6728BBE37C00EBB708 /* Game.swift */; };
+		61FFE33129344B5E00CA78BA /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FFE33029344B5E00CA78BA /* TitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		619F602928DF933500330213 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		619F602B28DFB92100330213 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		619F602F28DFE10000330213 /* Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
+		61D55B4A28B9729F00EBB708 /* Triv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D55B4D28B9729F00EBB708 /* TrivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivApp.swift; sourceTree = "<group>"; };
+		61D55B4F28B9729F00EBB708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61D55B5128B9729F00EBB708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61D55B5428B9729F00EBB708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61D55B5B28BBDE1000EBB708 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		61D55B5D28BBDE6B00EBB708 /* trivia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
+		61D55B5F28BBDEAE00EBB708 /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
+		61D55B6028BBDEAE00EBB708 /* negative-beeps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "negative-beeps.mp3"; sourceTree = "<group>"; };
+		61D55B6128BBDEAE00EBB708 /* magic-wand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-wand.mp3"; sourceTree = "<group>"; };
+		61D55B6228BBDEAE00EBB708 /* magic-in-the-air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-in-the-air.mp3"; sourceTree = "<group>"; };
+		61D55B6728BBE37C00EBB708 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		61FFE33029344B5E00CA78BA /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D55B4728B9729F00EBB708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61D55B4128B9729F00EBB708 = {
+			isa = PBXGroup;
+			children = (
+				61D55B4C28B9729F00EBB708 /* Triv */,
+				61D55B4B28B9729F00EBB708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61D55B4B28B9729F00EBB708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D55B4A28B9729F00EBB708 /* Triv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D55B4C28B9729F00EBB708 /* Triv */ = {
+			isa = PBXGroup;
+			children = (
+				61D55B4D28B9729F00EBB708 /* TrivApp.swift */,
+				61D55B4F28B9729F00EBB708 /* ContentView.swift */,
+				61FFE33029344B5E00CA78BA /* TitleView.swift */,
+				619F602F28DFE10000330213 /* Gameplay.swift */,
+				619F602928DF933500330213 /* Instructions.swift */,
+				619F602B28DFB92100330213 /* Settings.swift */,
+				61D55B5B28BBDE1000EBB708 /* Question.swift */,
+				61D55B6728BBE37C00EBB708 /* Game.swift */,
+				61D55B5128B9729F00EBB708 /* Assets.xcassets */,
+				61D55B5D28BBDE6B00EBB708 /* trivia.json */,
+				61D55B6228BBDEAE00EBB708 /* magic-in-the-air.mp3 */,
+				61D55B6128BBDEAE00EBB708 /* magic-wand.mp3 */,
+				61D55B6028BBDEAE00EBB708 /* negative-beeps.mp3 */,
+				61D55B5F28BBDEAE00EBB708 /* page-flip.mp3 */,
+				61D55B5328B9729F00EBB708 /* Preview Content */,
+			);
+			path = Triv;
+			sourceTree = "<group>";
+		};
+		61D55B5328B9729F00EBB708 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61D55B5428B9729F00EBB708 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D55B4928B9729F00EBB708 /* Triv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D55B5828B9729F00EBB708 /* Build configuration list for PBXNativeTarget "Triv" */;
+			buildPhases = (
+				61D55B4628B9729F00EBB708 /* Sources */,
+				61D55B4728B9729F00EBB708 /* Frameworks */,
+				61D55B4828B9729F00EBB708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triv;
+			productName = Triv;
+			productReference = 61D55B4A28B9729F00EBB708 /* Triv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D55B4228B9729F00EBB708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					61D55B4928B9729F00EBB708 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 61D55B4528B9729F00EBB708 /* Build configuration list for PBXProject "Triv" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61D55B4128B9729F00EBB708;
+			productRefGroup = 61D55B4B28B9729F00EBB708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D55B4928B9729F00EBB708 /* Triv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D55B4828B9729F00EBB708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D55B6328BBDEAE00EBB708 /* page-flip.mp3 in Resources */,
+				61D55B6428BBDEAE00EBB708 /* negative-beeps.mp3 in Resources */,
+				61D55B6528BBDEAE00EBB708 /* magic-wand.mp3 in Resources */,
+				61D55B6628BBDEAE00EBB708 /* magic-in-the-air.mp3 in Resources */,
+				61D55B5528B9729F00EBB708 /* Preview Assets.xcassets in Resources */,
+				61D55B5228B9729F00EBB708 /* Assets.xcassets in Resources */,
+				61D55B5E28BBDE6B00EBB708 /* trivia.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D55B4628B9729F00EBB708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619F603028DFE10000330213 /* Gameplay.swift in Sources */,
+				619F602C28DFB92100330213 /* Settings.swift in Sources */,
+				61D55B5C28BBDE1000EBB708 /* Question.swift in Sources */,
+				619F602A28DF933500330213 /* Instructions.swift in Sources */,
+				61D55B5028B9729F00EBB708 /* ContentView.swift in Sources */,
+				61D55B4E28B9729F00EBB708 /* TrivApp.swift in Sources */,
+				61D55B6828BBE37C00EBB708 /* Game.swift in Sources */,
+				61FFE33129344B5E00CA78BA /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61D55B5628B9729F00EBB708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61D55B5728B9729F00EBB708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D55B5928B9729F00EBB708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Triv/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z7LY99W88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayjayapps.Triv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D55B5A28B9729F00EBB708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Triv/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z7LY99W88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayjayapps.Triv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D55B4528B9729F00EBB708 /* Build configuration list for PBXProject "Triv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D55B5628B9729F00EBB708 /* Debug */,
+				61D55B5728B9729F00EBB708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D55B5828B9729F00EBB708 /* Build configuration list for PBXNativeTarget "Triv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D55B5928B9729F00EBB708 /* Debug */,
+				61D55B5A28B9729F00EBB708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D55B4228B9729F00EBB708 /* Project object */;
+}

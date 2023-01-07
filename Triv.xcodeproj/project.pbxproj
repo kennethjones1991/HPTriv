@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6171BA0129697D22000946FD /* GameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171BA0029697D22000946FD /* GameplayView.swift */; };
 		619F602A28DF933500330213 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602928DF933500330213 /* Instructions.swift */; };
 		619F602C28DFB92100330213 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602B28DFB92100330213 /* Settings.swift */; };
 		619F603028DFE10000330213 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F602F28DFE10000330213 /* Gameplay.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6171BA0029697D22000946FD /* GameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayView.swift; sourceTree = "<group>"; };
 		619F602928DF933500330213 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
 		619F602B28DFB92100330213 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		619F602F28DFE10000330213 /* Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				61D55B4D28B9729F00EBB708 /* TrivApp.swift */,
 				61D55B4F28B9729F00EBB708 /* ContentView.swift */,
+				6171BA0029697D22000946FD /* GameplayView.swift */,
 				61FFE33029344B5E00CA78BA /* TitleView.swift */,
 				619F602F28DFE10000330213 /* Gameplay.swift */,
 				619F602928DF933500330213 /* Instructions.swift */,
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6171BA0129697D22000946FD /* GameplayView.swift in Sources */,
 				619F603028DFE10000330213 /* Gameplay.swift in Sources */,
 				619F602C28DFB92100330213 /* Settings.swift in Sources */,
 				61D55B5C28BBDE1000EBB708 /* Question.swift in Sources */,
